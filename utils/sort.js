@@ -17,7 +17,7 @@ const bubbleSort = (arr) => {
       }
     } return arr;
   };  
-  console.log(bubbleSort([1,43,67,4,3,2,89,55,78,0,22]));
+  // console.log(bubbleSort([1,43,67,4,3,2,89,55,78,0,22]));
 
   
 
@@ -42,7 +42,7 @@ const bubbleSort = (arr) => {
         }
     return quickSort(left).concat(pivot, quickSort(right));    
 };
-console.log(quickSort([3,8,6,9,1]));
+// console.log(quickSort([3,8,6,9,1]));
 
 
 
